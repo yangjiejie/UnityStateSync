@@ -103,7 +103,6 @@ public class SceneMgr : MonoBehaviour
         Quaternion.identity);
         player.transform.eulerAngles = new Vector3(posRot.rot_x, posRot.rot_y, posRot.rot_z);
 
-        Destroy(player.GetComponent<PlayerMove>());
         SceneData.AddPlayer(msgPlayer, player);
     }
 }
