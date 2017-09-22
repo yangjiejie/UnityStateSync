@@ -26,5 +26,7 @@
 
 
 %% Record
+-include("record.player.hrl").
+
 -include("const.pb.hrl").
 -include("record.pb.hrl").

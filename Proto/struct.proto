@@ -1,0 +1,20 @@
+//******信息块(场景)**************************************************************
+
+message MsgScenePosRot(50020) //场景玩家旋转和位置信息
+{
+	required f32            pos_x        	//位置x
+    required f32            pos_y        	//位置y
+    required f32            pos_z        	//位置z
+    required f32            rot_x        	//旋转x
+    required f32            rot_y        	//旋转y
+    required f32            rot_z        	//旋转z
+}
+
+message MsgScenePlayer(50030) //场景玩家旋转和位置信息
+{
+    required u32            uid             //玩家ID
+	required string			uname			//玩家昵称
+    required MsgScenePosRot scene_pos_rot   //旋转和位置信息
+}
+
+//******信息块(场景)**************************************************************

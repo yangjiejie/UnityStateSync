@@ -1,0 +1,15 @@
+//角色: 1001 - 1500
+
+message CRoleLogin(1010) //角色登录
+{
+	required	string		uname			//玩家昵称
+}
+
+message SRoleLoginOk(1020) //登录成功
+{
+	required	u32			uid				//玩家ID
+    required    string      uname           //玩家名字
+	required	f32			pos_x			//位置x
+	required	f32			pos_y			//位置y
+	required	f32			pos_z			//位置z
+}

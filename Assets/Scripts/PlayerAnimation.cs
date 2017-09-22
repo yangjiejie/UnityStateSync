@@ -15,13 +15,6 @@ public class PlayerAnimation : MonoBehaviour
 
     void Update()
     {
-        if (GetComponent<Rigidbody>().velocity.magnitude > 0.5f)
-        {
-            anim.SetBool("Walk", true);
-        }
-        else
-        {
-            anim.SetBool("Walk", false);
-        }
+        anim.SetBool("Move", GetComponent<Rigidbody>().velocity.magnitude > 0.5f);
     }
 }

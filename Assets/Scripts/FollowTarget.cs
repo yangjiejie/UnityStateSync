@@ -5,14 +5,15 @@ using UnityEngine;
 
 public class FollowTarget : MonoBehaviour
 {
-    public Transform target;
     public float moveSmooth = 5f;
 
+    private Transform target;
     private Vector3 offset;
 
 
 	void Start()
     {
+        target = PlayerData.player.transform.Find("Bip01");
         offset = transform.position - target.position;
 	}
 

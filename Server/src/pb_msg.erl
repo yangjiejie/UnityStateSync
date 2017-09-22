@@ -12,7 +12,7 @@ msg(MsgId, BinData) ->
 	<<Len:16/big-integer-unsigned, MsgId:16/big-integer-unsigned, BinData/binary>>.
 
 %% 发送消息
-send(_Socket,<<>>) ->
+send(_Socket, <<>>) ->
 	true;
 send(Socket, BinMsg) when is_port(Socket) ->
 	case send_fast(Socket, BinMsg) of

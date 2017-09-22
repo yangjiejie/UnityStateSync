@@ -1,0 +1,43 @@
+//场景: 2001 - 2500
+
+message CSceneReqPlayers(2010) //请求玩家列表
+{
+	
+}
+
+message SScenePlayers(2020) //场景玩家列表
+{
+    repeated MsgScenePlayer players   //玩家列表
+}
+
+message SSceneEnter(2030) //玩家进入场景
+{
+    required MsgScenePlayer player   //玩家信息
+}
+
+message SSceneExit(2040) //玩家退出场景
+{
+    required u32            uid             //玩家ID
+}
+
+message CScenePosRot(2050) //位置和旋转
+{
+	required MsgScenePosRot posrot		//位置和旋转
+}
+
+message SScenePosRotOk(2060) //位置和旋转
+{
+	required u32			uid			//玩家ID
+	required MsgScenePosRot posrot		//位置和旋转
+}
+
+message CSceneAnimMove(2070) //动画-行走
+{
+	required u8				is_move		//是否行走
+}
+
+message SSceneAnimMoveOk(2080) //动画-行走
+{
+	required u32			uid			//玩家ID
+	required u8				is_move		//是否行走
+}
