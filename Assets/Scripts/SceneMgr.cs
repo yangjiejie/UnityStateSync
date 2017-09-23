@@ -6,6 +6,8 @@ using UnityEngine;
 public class SceneMgr : MonoBehaviour
 {
     private GameObject playerPrefab;
+
+
     void Awake()
     {
         playerPrefab = Resources.Load<GameObject>("PlayerBoy");
