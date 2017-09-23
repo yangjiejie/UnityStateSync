@@ -16,7 +16,7 @@ public class PlayerMoveSync : MonoBehaviour
 
     public void SetPositionAndRotation(MsgScenePosRot posRot)
     {
-        transform.position = new Vector3(posRot.pos_x, posRot.pos_y, posRot.pos_x);
+        transform.position = new Vector3(posRot.pos_x, posRot.pos_y, posRot.pos_z);
         transform.eulerAngles = new Vector3(posRot.rot_x, posRot.rot_y, posRot.rot_z); ;
     }
 

@@ -31,7 +31,8 @@ recv(Socket, Uid, Bin) ->
 			Bin2 = work(Socket, Uid, <<Bin/binary,BinRecv/binary>>),
 			recv(Socket, Uid, Bin2);
 		{send, BinMsg} ->
-			pb_msg:send(Socket, BinMsg);
+			pb_msg:send(Socket, BinMsg),
+			recv(Socket, Uid, Bin);
 		{tcp_closed, Socket} ->
 			?PRINT("socket closed"),
 			BinSceneExit = pb:ack_scene_exit(#ack_scene_exit{uid = Uid}),
