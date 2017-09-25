@@ -22,6 +22,9 @@ public class P2P
 			case 2080:
 				AckSceneAnimMoveOk ackSceneAnimMoveOk = new AckSceneAnimMoveOk(packet);
 				return ackSceneAnimMoveOk;
+			case 2100:
+				AckSceneAnimOk ackSceneAnimOk = new AckSceneAnimOk(packet);
+				return ackSceneAnimOk;
 		}
 
 		return null;

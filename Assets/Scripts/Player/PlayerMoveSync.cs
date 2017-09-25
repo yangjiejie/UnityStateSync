@@ -22,6 +22,6 @@ public class PlayerMoveSync : MonoBehaviour
 
     public void SetAnim(byte isMove)
     {
-        anim.SetBool("Move", isMove == 1 ? true : false);
+        anim.SetBool("Move", isMove == 1);
     }
 }

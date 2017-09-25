@@ -41,3 +41,18 @@ message SSceneAnimMoveOk(2080) //动画-行走
 	required u32			uid			//玩家ID
 	required u8				is_move		//是否行走
 }
+
+message CSceneAnim(2090) //动画-行走
+{
+	required u8				skill1		//技能1
+	required u8				skill2		//技能2
+	required u8				skill3		//技能3
+}
+
+message SSceneAnimOk(2100) //动画-行走
+{
+	required u32			uid			//玩家ID
+	required u8				skill1		//技能1
+	required u8				skill2		//技能2
+	required u8				skill3		//技能3
+}

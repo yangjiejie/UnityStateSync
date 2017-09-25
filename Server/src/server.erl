@@ -89,6 +89,11 @@ dispatch(?P_C_SCENE_ANIM_MOVE, _Socket, Uid, Bin) ->
 	#req_scene_anim_move{is_move = IsMove} = pb:req_scene_anim_move(Bin),
 	BinSceneAnimMove = pb:ack_scene_anim_move_ok(#ack_scene_anim_move_ok{uid = Uid, is_move = IsMove}),
 	broadcast(BinSceneAnimMove, Uid);
+dispatch(?P_C_SCENE_ANIM, _Socket, Uid, Bin) ->
+	?PRINT("P_C_SCENE_ANIM Uid : ~p~n", [Uid]),
+	#req_scene_anim{skill1 = Skill1, skill2 = Skill2, skill3 = Skill3} = pb:req_scene_anim(Bin),
+	BinSceneAnim = pb:ack_scene_anim_ok(#ack_scene_anim_ok{uid = Uid, skill1 = Skill1, skill2 = Skill2, skill3 = Skill3}),
+	broadcast(BinSceneAnim, Uid);
 
 
 dispatch(PacketId, _Socket, _Uid, Bin) ->

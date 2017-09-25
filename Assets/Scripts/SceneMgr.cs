@@ -25,6 +25,7 @@ public class SceneMgr : MonoBehaviour
         Net.Inst.AddEventHandler(Msg.P_ACK_SCENE_EXIT, OnNetHandler);
         Net.Inst.AddEventHandler(Msg.P_ACK_SCENE_POS_ROT_OK, OnNetHandler);
         Net.Inst.AddEventHandler(Msg.P_ACK_SCENE_ANIM_MOVE_OK, OnNetHandler);
+        Net.Inst.AddEventHandler(Msg.P_ACK_SCENE_ANIM_OK, OnNetHandler);
     }
 
     void Start()
@@ -40,6 +41,7 @@ public class SceneMgr : MonoBehaviour
         Net.Inst.DelEventHandler(Msg.P_ACK_SCENE_EXIT, OnNetHandler);
         Net.Inst.DelEventHandler(Msg.P_ACK_SCENE_POS_ROT_OK, OnNetHandler);
         Net.Inst.DelEventHandler(Msg.P_ACK_SCENE_ANIM_MOVE_OK, OnNetHandler);
+        Net.Inst.DelEventHandler(Msg.P_ACK_SCENE_ANIM_OK, OnNetHandler);
     }
 
 
@@ -90,6 +92,19 @@ public class SceneMgr : MonoBehaviour
             else
             {
                 Debug.Log("P_ACK_SCENE_ANIM_MOVE_OK no player");
+            }
+        }
+        else if (packetId == Msg.P_ACK_SCENE_ANIM_OK)
+        {
+            AckSceneAnimOk animOk = obj as AckSceneAnimOk;
+            ScenePlayer scenePlayer = SceneData.GetPlayer(animOk.uid);
+            if (scenePlayer != null)
+            {
+                scenePlayer.animSync.SetAnim(animOk);
+            }
+            else
+            {
+                Debug.Log("P_ACK_SCENE_ANIM_OK no player");
             }
         }
     }

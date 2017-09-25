@@ -72,6 +72,22 @@ ack_scene_anim_move_ok(#ack_scene_anim_move_ok{uid=Uid,is_move=IsMove}) ->
 	BinData = <<Bin1/binary,Bin2/binary>>,
 	?MSG(2080, BinData).
 
+%% 动画-行走
+req_scene_anim(Bin0) ->
+	{Skill1, Bin1} = ?D(u8, Bin0),
+	{Skill2, Bin2} = ?D(u8, Bin1),
+	{Skill3, Bin3} = ?D(u8, Bin2),
+	#req_scene_anim{skill1=Skill1,skill2=Skill2,skill3=Skill3}.
+
+%% 动画-行走
+ack_scene_anim_ok(#ack_scene_anim_ok{uid=Uid,skill1=Skill1,skill2=Skill2,skill3=Skill3}) ->
+	Bin1 = ?E(u32, Uid),
+	Bin2 = ?E(u8, Skill1),
+	Bin3 = ?E(u8, Skill2),
+	Bin4 = ?E(u8, Skill3),
+	BinData = <<Bin1/binary,Bin2/binary,Bin3/binary,Bin4/binary>>,
+	?MSG(2100, BinData).
+
 %% 场景玩家旋转和位置信息
 msg_scene_pos_rot_encode(#msg_scene_pos_rot{pos_x=PosX,pos_y=PosY,pos_z=PosZ,rot_x=RotX,rot_y=RotY,rot_z=RotZ}) ->
 	Bin1 = ?E(f32, PosX),

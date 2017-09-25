@@ -16,6 +16,7 @@ public class ScenePlayer
     public float rot_z;
 
     public PlayerMoveSync moveSync;
+    public PlayerAnimationSync animSync;
 }
 
 public class SceneData
@@ -37,8 +38,12 @@ public class SceneData
         scenePlayer.rot_x = msgScenePlayer.scene_pos_rot.rot_x;
         scenePlayer.rot_y = msgScenePlayer.scene_pos_rot.rot_y;
         scenePlayer.rot_z = msgScenePlayer.scene_pos_rot.rot_z;
+
         scenePlayer.moveSync = go.GetComponent<PlayerMoveSync>();
         GameObject.Destroy(go.GetComponent<PlayerMove>());
+
+        scenePlayer.animSync = go.GetComponent<PlayerAnimationSync>();
+        GameObject.Destroy(go.GetComponent<PlayerAnimation>());
 
         scenePlayers.Add(scenePlayer.uid, scenePlayer);
     }

@@ -37,7 +37,7 @@ public class PlayerMove : MonoBehaviour
         {
             this.GetComponent<Rigidbody>().velocity = new Vector3(-h * velocity, vel.y, -v * velocity);
             this.transform.rotation = Quaternion.LookRotation(new Vector3(-h, 0, -v));
-            anim.SetBool("Move",true);
+            anim.SetBool("Move", true);
         }
         else
         {

@@ -10,3 +10,5 @@
 -define(P_S_SCENE_POS_ROT_OK,           2060). % 位置和旋转
 -define(P_C_SCENE_ANIM_MOVE,            2070). % 动画-行走
 -define(P_S_SCENE_ANIM_MOVE_OK,         2080). % 动画-行走
+-define(P_C_SCENE_ANIM,                 2090). % 动画-行走
+-define(P_S_SCENE_ANIM_OK,              2100). % 动画-行走

@@ -33,6 +33,12 @@ public class Msg
 	//动画-行走
 	public static ushort P_ACK_SCENE_ANIM_MOVE_OK               = 2080;
 
+	//动画-行走
+	public static ushort P_REQ_SCENE_ANIM                       = 2090;
+
+	//动画-行走
+	public static ushort P_ACK_SCENE_ANIM_OK                    = 2100;
+
 	//场景玩家旋转和位置信息
 	public static ushort P_MSG_SCENE_POS_ROT                    = 50020;
 

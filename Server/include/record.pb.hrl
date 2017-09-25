@@ -54,6 +54,21 @@
 	is_move         = 0           % 是否行走
 }).
 
+%% 动画-行走
+-record(req_scene_anim, {
+	skill1          = 0,          % 技能1
+	skill2          = 0,          % 技能2
+	skill3          = 0           % 技能3
+}).
+
+%% 动画-行走
+-record(ack_scene_anim_ok, {
+	uid             = 0,          % 玩家ID
+	skill1          = 0,          % 技能1
+	skill2          = 0,          % 技能2
+	skill3          = 0           % 技能3
+}).
+
 %% 场景玩家旋转和位置信息
 -record(msg_scene_pos_rot, {
 	pos_x           = 0,          % 位置x
