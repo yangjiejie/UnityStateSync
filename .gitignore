@@ -34,9 +34,6 @@ sysinfo.txt
 *.unitypackage
 
 
-/Server/.idea
-/Server/*.iml
-/Server/ebin
 /pytools
 /UnityStateSync.exe
 /UnityStateSync_Data
