@@ -1,0 +1,60 @@
+//******信息块(玩家)**************************************************************
+
+message MsgRoleBase(50000) //玩家基础信息
+{
+	required u32			uid					//玩家uid
+	required string			uname				//玩家昵称
+}
+
+//******信息块(玩家)**************************************************************
+
+
+//******信息块(好友)**************************************************************
+
+message MsgFriendBaseAdd(50010) //添加好友基础信息
+{
+	required u32			uid					//玩家uid
+	required string			uname				//玩家昵称
+}
+
+//******信息块(好友)**************************************************************
+
+
+//******信息块(场景)**************************************************************
+
+message MsgSceneRotPos(50020) //场景玩家旋转和位置信息
+{
+    required i16            rot_x        //旋转x
+    required i16            rot_y        //旋转y
+    required i16            rot_z        //旋转z
+    required i16            pos_x        //位置x
+    required i16            pos_y        //位置y
+    required i16            pos_z        //位置z
+}
+
+message MsgScenePlayer(50030) //场景玩家旋转和位置信息
+{
+    required u32            uid             //玩家ID
+    required MsgSceneRotPos scene_rot_pos   //旋转和位置信息
+}
+
+message MsgSceneVector3(50040) //场景Vector3信息
+{
+    required i16            x        //x
+    required i16            y        //y
+    required i16            z        //z
+}
+
+//******信息块(场景)**************************************************************
+
+
+//******信息块(测试)**************************************************************
+
+message MsgTestXX(59990)
+{
+    required    u8          id_u8
+    repeated    f32         id_f32
+    optional    u8          id_op_u8
+}
+
+//******信息块(测试)**************************************************************

@@ -1,0 +1,21 @@
+//聊天: 1501 - 2000
+
+message CChatSend(1510) //发送聊天信息
+{
+	required	u8			channel			//聊天频道(世界|国家|军团|私聊|系统)
+    required	u32			dest_uid        //私聊玩家uid
+    required	string		content			//聊天内容
+}
+
+message SChatSendOk(1520) //聊天信息返回
+{
+	required	u8			channel			//聊天频道(世界|国家|军团|私聊|系统)
+    required	u32			uid			    //玩家uid
+    required	string		uname			//玩家昵称
+    required	string		content			//聊天内容
+}
+
+message CChatGm(1530) //GM命令
+{
+    required	string		content			//GM内容
+}

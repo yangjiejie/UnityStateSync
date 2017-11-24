@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partner_grows>
+	<partner_grow quali="13" id="1101">
+		<attr dodge="700" hp="1130" magic_def="20" att="90" attback="900" crit="1400" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1102">
+		<attr dodge="1000" hp="1310" magic_def="20" att="120" attback="1200" crit="800" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1103">
+		<attr dodge="1300" hp="1275" magic_def="20" att="125" attback="800" crit="900" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1104">
+		<attr dodge="1400" hp="1540" magic_def="20" att="90" attback="1100" crit="500" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1105">
+		<attr dodge="700" hp="1015" magic_def="20" att="105" attback="900" crit="1400" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1106">
+		<attr dodge="1700" hp="875" magic_def="25" att="145" attback="800" crit="500" strong_def="25" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1107">
+		<attr dodge="1000" hp="845" magic_def="25" att="135" attback="500" crit="1500" strong_def="25" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1108">
+		<attr dodge="1100" hp="1035" magic_def="30" att="130" attback="800" crit="1100" strong_def="20" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1109">
+		<attr dodge="700" hp="1080" magic_def="30" att="110" attback="700" crit="1600" strong_def="20" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="13" id="1110">
+		<attr dodge="1000" hp="960" magic_def="30" att="125" attback="800" crit="1200" strong_def="20" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1201">
+		<attr dodge="1800" hp="1665" magic_def="30" att="100" attback="1000" crit="700" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1202">
+		<attr dodge="1200" hp="1665" magic_def="30" att="100" attback="1200" crit="1100" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1203">
+		<attr dodge="700" hp="1395" magic_def="30" att="135" attback="1000" crit="1800" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1204">
+		<attr dodge="900" hp="1195" magic_def="30" att="100" attback="1000" crit="1600" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1205">
+		<attr dodge="1500" hp="1360" magic_def="30" att="140" attback="1000" crit="1000" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1206">
+		<attr dodge="1000" hp="1435" magic_def="30" att="130" attback="1500" crit="1000" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1207">
+		<attr dodge="900" hp="1080" magic_def="30" att="115" attback="1000" crit="1600" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1208">
+		<attr dodge="1000" hp="1075" magic_def="30" att="110" attback="1000" crit="1500" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1209">
+		<attr dodge="2000" hp="975" magic_def="30" att="165" attback="1000" crit="500" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1210">
+		<attr dodge="1000" hp="930" magic_def="30" att="155" attback="500" crit="2000" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1211">
+		<attr dodge="1200" hp="1175" magic_def="40" att="145" attback="1100" crit="1200" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1212">
+		<attr dodge="1200" hp="1290" magic_def="40" att="130" attback="1100" crit="1200" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1213">
+		<attr dodge="1400" hp="1205" magic_def="40" att="130" attback="1100" crit="1000" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1214">
+		<attr dodge="1500" hp="1290" magic_def="40" att="130" attback="1000" crit="1000" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1215">
+		<attr dodge="1000" hp="1160" magic_def="40" att="120" attback="900" crit="1600" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1216">
+		<attr dodge="1100" hp="1160" magic_def="40" att="120" attback="1000" crit="1400" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1217">
+		<attr dodge="1200" hp="1205" magic_def="40" att="130" attback="1100" crit="1200" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1218">
+		<attr dodge="1200" hp="1205" magic_def="40" att="130" attback="1100" crit="1200" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1219">
+		<attr dodge="1200" hp="1035" magic_def="40" att="115" attback="1100" crit="1200" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="16" id="1220">
+		<attr dodge="1200" hp="1110" magic_def="40" att="120" attback="1100" crit="1200" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1301">
+		<attr dodge="1400" hp="1560" magic_def="40" att="140" attback="1300" crit="1300" strong_def="50" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1302">
+		<attr dodge="1500" hp="1710" magic_def="40" att="120" attback="1500" crit="1000" strong_def="50" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1303">
+		<attr dodge="1000" hp="1400" magic_def="40" att="160" attback="1500" crit="1500" strong_def="50" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1304">
+		<attr dodge="1300" hp="1480" magic_def="40" att="150" attback="1300" crit="1400" strong_def="50" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1305">
+		<attr dodge="2000" hp="1030" magic_def="40" att="180" attback="1000" crit="1000" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1306">
+		<attr dodge="1300" hp="1005" magic_def="40" att="165" attback="500" crit="2200" strong_def="40" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1307">
+		<attr dodge="1600" hp="1205" magic_def="40" att="130" attback="1100" crit="1300" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1308">
+		<attr dodge="1300" hp="1290" magic_def="40" att="130" attback="1300" crit="1400" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1309">
+		<attr dodge="1500" hp="1110" magic_def="40" att="120" attback="1000" crit="1500" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="19" id="1310">
+		<attr dodge="1500" hp="1290" magic_def="40" att="130" attback="500" crit="2000" strong_def="30" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1511">
+		<attr dodge="1000" hp="500" magic_def="0" att="50" attback="2000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1512">
+		<attr dodge="1000" hp="500" magic_def="0" att="50" attback="2000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1513">
+		<attr dodge="1000" hp="500" magic_def="0" att="50" attback="2000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1514">
+		<attr dodge="1000" hp="500" magic_def="0" att="50" attback="2000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1515">
+		<attr dodge="1000" hp="500" magic_def="0" att="50" attback="2000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1516">
+		<attr dodge="1000" hp="500" magic_def="0" att="50" attback="2000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1517">
+		<attr dodge="2000" hp="400" magic_def="0" att="60" attback="1000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1518">
+		<attr dodge="2000" hp="400" magic_def="0" att="60" attback="1000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1519">
+		<attr dodge="2000" hp="400" magic_def="0" att="60" attback="1000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1520">
+		<attr dodge="2000" hp="400" magic_def="0" att="60" attback="1000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1521">
+		<attr dodge="2000" hp="400" magic_def="0" att="60" attback="1000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1522">
+		<attr dodge="2000" hp="400" magic_def="0" att="60" attback="1000" crit="1000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1523">
+		<attr dodge="1000" hp="300" magic_def="0" att="70" attback="1000" crit="2000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1524">
+		<attr dodge="1000" hp="300" magic_def="0" att="70" attback="1000" crit="2000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1525">
+		<attr dodge="1000" hp="300" magic_def="0" att="70" attback="1000" crit="2000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1526">
+		<attr dodge="1000" hp="300" magic_def="0" att="70" attback="1000" crit="2000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1527">
+		<attr dodge="1000" hp="300" magic_def="0" att="70" attback="1000" crit="2000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1528">
+		<attr dodge="1000" hp="300" magic_def="0" att="70" attback="1000" crit="2000" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1529">
+		<attr dodge="1350" hp="350" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1530">
+		<attr dodge="1350" hp="350" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1531">
+		<attr dodge="1350" hp="350" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1532">
+		<attr dodge="1350" hp="350" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1533">
+		<attr dodge="1350" hp="350" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1534">
+		<attr dodge="1350" hp="350" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1535">
+		<attr dodge="1350" hp="300" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1536">
+		<attr dodge="1350" hp="300" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1537">
+		<attr dodge="1350" hp="300" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1538">
+		<attr dodge="1350" hp="300" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1539">
+		<attr dodge="1350" hp="300" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+	<partner_grow quali="10" id="1540">
+		<attr dodge="1350" hp="300" magic_def="0" att="50" attback="1350" crit="1350" strong_def="0" />
+		<sol str_d="1" mag_d="1" mag_a="2" str_a="2" />
+	</partner_grow>
+</partner_grows>

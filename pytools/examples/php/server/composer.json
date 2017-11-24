@@ -1,0 +1,8 @@
+{
+	"autoload": {
+		"classmap": [
+			"network",
+			"protocol"
+		]
+	}
+}

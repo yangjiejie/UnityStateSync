@@ -1,0 +1,48 @@
+//角色: 1001 - 1500
+
+message CRoleLogin(1010) //角色登录
+{
+	required	u32			uid				//玩家uid
+    required	u32			uuid			//账号uuid
+    required	u16			sid				//服务器id
+    required	u16			cid				//平台id
+    required	u32			login_time  	//登录时间
+    required	string		pwd           	//校验码
+    required	u8			relink        	//是否重连
+    required	u8			debug        	//是否调试
+    required	string		os			    //操作系统
+    required	string		version 		//版本号
+}
+
+message CRoleCreate(1020) //角色创建
+{
+	required	u32			uid				//玩家uid
+    required	u32			uuid			//账号uuid
+    required	u16			sid				//服务器id
+    required	u16			cid				//平台id
+    required	string		os			    //操作系统
+    required	string		version 		//版本号
+	required	string		uname			//玩家昵称
+    required	string		source			//来源
+    required	string		source_sub		//子来源
+	required	u32			login_time  	//登录时间
+}
+
+message CRoleRandName(1030) //请求随机名字
+{
+    
+}
+
+message SRoleRandNameOk(1040) //随机名字返回
+{
+    required    string      uname           //玩家名字
+}
+
+message SRoleLoginOk(1050) //登录成功
+{
+    required    string      uname           //玩家名字
+}
+
+message SRoleLoginOkNoRole(1060) //登录成功(无角色)
+{
+}

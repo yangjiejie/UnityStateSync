@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pays>
+	<pay days="30" value="300" rmb="25" second="0" type="2" first="0" />
+	<pay days="0" value="60" rmb="6" second="60" type="1" first="60" />
+	<pay days="0" value="300" rmb="30" second="15" type="1" first="15" />
+	<pay days="0" value="980" rmb="98" second="80" type="1" first="80" />
+	<pay days="0" value="1980" rmb="198" second="240" type="1" first="240" />
+	<pay days="0" value="3280" rmb="328" second="600" type="1" first="600" />
+	<pay days="0" value="6480" rmb="648" second="6480" type="1" first="6480" />
+</pays>

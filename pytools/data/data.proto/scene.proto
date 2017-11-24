@@ -1,0 +1,47 @@
+//场景: 2001 - 2500
+
+message CSceneEnterFly(2010) //请求进入场景(飞)
+{
+    required u32            map_id          //地图ID
+}
+
+message CSceneEnter(2020) //请求进入场景
+{
+    required u32            door_id         //传送门ID
+}
+
+message CSceneMove(2030) //行走数据
+{
+    required MsgSceneRotPos     scene_rot_pos   //旋转和位置信息
+    required MsgSceneVector3    forward         //方向向量
+    required string             ani_name        //当前动画
+    required i16                x_axis          //鼠标左右旋转
+}
+
+message SSceneEnter(2040) //进入场景成功
+{
+    required MsgScenePlayer player   //玩家信息
+}
+
+message SScenePlayers(2050) //场景玩家列表
+{
+    repeated MsgScenePlayer players   //玩家列表
+}
+
+message SSceneExit(2060) //退出场景成功
+{
+    required u32            uid             //玩家ID
+}
+
+message CSceneReqPlayers(2070) //请求玩家列表
+{
+}
+
+message SSceneMove(2080) //行走数据
+{
+    required MsgSceneRotPos     scene_rot_pos   //旋转和位置信息
+    required MsgSceneVector3    forward         //方向向量
+    required string             ani_name        //当前动画
+    required i16                x_axis          //鼠标左右旋转
+    required u32                uid             //玩家ID
+}

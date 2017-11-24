@@ -1,0 +1,70 @@
+//测试: 40001 - 40500
+
+message CTestSend(40010) //测试发送
+{
+	required	u8			id_u8
+	required	MsgRoleBase	role_base
+	repeated	f32			id_f32
+	optional	u8 			id_op_u8
+	optional	MsgRoleBase	op_role_base
+}
+
+message STestSendOk(40020) //测试返回
+{
+	required	u8			id_u8
+	required	MsgRoleBase	role_base
+	repeated	f32			id_f32
+	optional	u8 			id_op_u8
+	optional	MsgRoleBase	op_role_base
+}
+
+message MsgTestSend(40030) //测试信息块
+{
+	required	u8			id_u8
+	required	MsgRoleBase	role_base
+	repeated	f32			id_f32
+	optional	u8 			id_op_u8
+	optional	MsgRoleBase	op_role_base
+}
+
+message CTestXX(40040)
+{
+	required	u8 			id_u8
+	required	u16			id_u16
+	required	u32			id_u32
+	repeated	u8 			repeat_id_u8
+	optional	u8 			optional_id_u8
+}
+
+message STestXX(40050)
+{
+	required	u8 			id_u8
+	required	u16			id_u16
+	required	u32			id_u32
+	repeated	u8 			repeat_id_u8
+	optional	u8 			optional_id_u8
+}
+
+
+message CTestPhp(40060)
+{
+	required	u64			u64
+	required	string 		strxx
+	required	MsgTestPhp	msg_req
+	optional 	MsgTestPhp	msg_opt
+	repeated	MsgTestPhp	msg_rep
+}
+
+message STestPhpOk(40070)
+{
+	required	u64			u64
+	required	string 		strxx
+	required	MsgTestPhp	msg_req
+	optional 	MsgTestPhp	msg_opt
+	repeated	MsgTestPhp	msg_rep
+}
+
+message MsgTestPhp(40080)
+{
+	required	u16			u16
+}
